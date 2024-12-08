@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/anime-store',
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/anime-store/',
+  basePath: '/anime-store',
 }
 
 module.exports = nextConfig
